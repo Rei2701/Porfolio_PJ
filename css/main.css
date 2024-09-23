@@ -22,7 +22,7 @@ body{
     margin-left: 40px;
 }
 #contact-information-container{
-    background-color: black!important;
+    background-color: #323232!important;
 }
 /* Chỉnh logo-information */
 i.nav-icon{
@@ -44,8 +44,9 @@ i.nav-icon:hover{
 }
 #navbar-button:hover{
     border: 3px solid white;
-    background-color: #674188;
-    color: white;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
 }
 /* Style chữ bên trong */
 #navbar-button h4{
@@ -96,4 +97,25 @@ i.nav-icon:hover{
     margin: 25% 0;
 }
 
-/* Main Body */
+/* page-transfer - đỉnh vl */ 
+.custom-shape-divider-top-1727082962 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1727082962 svg {
+    position: relative;
+    display: block;
+    width: calc(194% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-top-1727082962 .shape-fill {
+    fill: black;
+}
+/* Project */
