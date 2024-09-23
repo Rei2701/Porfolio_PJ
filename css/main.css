@@ -50,7 +50,7 @@ i.nav-icon:hover{
 #navbar-button{
     border: 3px solid white;
     text-align: center;
-    margin-right:40px;
+    margin-right:50px;
 }
 #navbar-button:hover{
     border: 3px solid white;
@@ -108,10 +108,50 @@ i.nav-icon:hover{
     height: 80%;
     margin: 25% 0;
 }
+/* View my work */
+.view-my-work li.dropdown{
+    color: white;
+    margin-left: 40px;
+}
 /* Project */
   .Porfolio-pic-main img{
     width: 100%;
     height: 80%;
     object-fit: contain;
     align-items: center;
-  }
+}
+/* Chỉnh nút View My work */
+.btn-Dropdown{
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    border: 4px solid white;
+}
+.dropdown-toggle-split{
+    color: white;
+    font-size: 20px;
+}
+.view-my-work{
+    text-align: right;
+}
+.btn-Dropdown h4{
+    margin: 10px 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.dropdown-menu a.dropdown-item{
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.dropdown-menu a.dropdown-item:hover{
+    border: white 2px solid;
+    border-radius: 20px;
+}
+.dropdown-menu{
+    padding: 20px 0;
+    background-color: black;
+}
+
