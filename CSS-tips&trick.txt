@@ -1,0 +1,8 @@
+Học được về cách set position
+Nên layout position của các elements một cách có hệ thống để chúng có liên kết với nhau
+=> khi có thay đổi về kích thước màn hình sẽ trickger dẫn đến thay đổi toàn bộ
+.về css để xếp vị trí và layout nên dùng thuộc tính position 
+Dùng thằng cha => xét position của thằng con dựa vào cha => Bố cục toàn bài sẽ có hệ thống
+
+2. Học được về cách xài keyframes cơ bản ( from - to)
+Viết animation bằng keyframes
