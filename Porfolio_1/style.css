@@ -1,0 +1,52 @@
+/* ccs part 2  */
+ .part2{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(/Porfolio_1/img/background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+ }
+ .wrapper{
+    position: absolute;
+    left: calc(20%);
+    bottom: calc(30%);
+    width: 40%;
+    height: 40%;
+    display: flex;
+ }
+ .name{
+    position: absolute;
+    left: calc(40%);
+    bottom: calc(25%);
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    font-size: 80px;
+    font-family: "Fredericka the Great", serif;
+    color: white;
+} 
+.item-conatiner{
+    position: absolute;
+    left: calc(39%);
+    bottom: calc(20%);
+    text-align: center;
+    padding: 60px 0;
+    width: 160px;
+    height: 170px;
+    border: white solid 4px;
+    border-left: transparent ;
+    border-right: transparent;
+    border-radius:30px;
+    animation: spinner 5s infinite linear;
+    box-shadow: inset;
+    /* background-color: red; */
+} 
+
+@keyframes spinner{
+    to{
+        transform: rotate(360deg);
+    }
+ }
